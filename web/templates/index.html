@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Chatbot</title>
+    <link rel="stylesheet" href="/static/chat.css">
+    <!-- Include marked.js for Markdown parsing -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <div class="chat-container">
+        <h2>Chat with your tutor</h2>
+        <div class="student-info">
+            <input type="text" id="studentId" placeholder="Student ID (e.g., student_1)">
+        </div>
+        <div id="chatBox" class="chat-box"></div>
+        <textarea id="userMessage" placeholder="Type your message..." rows="2"></textarea>
+        <button onclick="sendMessage()">Send</button>
+        <div id="loading" class="loading" style="display:none;">⏳ Thinking...</div>
+    </div>
+
+    <script src="/static/chat.js"></script>
+</body>
+</html>

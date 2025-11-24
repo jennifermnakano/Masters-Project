@@ -1,0 +1,8 @@
+{
+    "name": "Alice",
+    "grade": 10,
+    "subjects": ["Geometry", "Algebra"],
+    "learning_preferences": ["visual", "step-by-step"],
+    "goals": ["improve problem solving speed", "understand proofs better"]
+  }
+  
