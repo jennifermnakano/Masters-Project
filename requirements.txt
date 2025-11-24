@@ -2,4 +2,6 @@ fastapi
 uvicorn
 jinja2
 ollama
+requests
+python-dotenv
 python-multipart
