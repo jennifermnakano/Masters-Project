@@ -6,7 +6,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from utils.chatbot_utils import chat_with_student
 
-app = FastAPI()
+app = FastAPI() 
 
 app.add_middleware(
     CORSMiddleware,
